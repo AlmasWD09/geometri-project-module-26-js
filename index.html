@@ -1,11 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>geometri-project-module-26-js</title>
+    <!-- link add -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
+    <header>
+
+    </header>
+    <main class="container mx-auto  border-2 border-red-600 ">
+        <div class="flex justify-between">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 col-span-9 gap-1 p-8">
+                <!-- card one -->
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Triangle!</h2>
+                      <p class="">Area (A) =0.5XbXh</p>
+                        <div class="flex">
+                            <input  class="w-2/4 border-2 border-gray-400 rounded-md mr-2 px-2" type="text" name="" id="triangle-base" placeholder="b">
+                            <span>cm<sup>2</sup></span>
+                            <input class="w-2/4 border-2 border-gray-400 rounded-md mx-2 px-2" type="text" name="" id="triangle-hight" placeholder="h">
+                            <span>cm<sup>2</sup></span>
+                        </div>
+                        <div>
+                            <p>Area:<span id="triangle-area">0</span>cm<sup>2</sup></p>
+                        </div>
+                      <div class="card-actions">
+                        <button id="triangle-btn" class="btn btn-primary w-full">Calculate</button>
+                      </div>
+                    </div>
+                  </div>
+                <!-- card one -->
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Triangle!</h2>
+                      <p>Area (A) =0.5XbXh</p>
+                        <div class="flex">
+                            <input class="w-2/4 border-2 border-gray-400 rounded-md mr-2 px-2" type="text" name="" id="" placeholder="b">
+                            <span>cm<sup>2</sup></span>
+                            <input class="w-2/4 border-2 border-gray-400 rounded-md mx-2 px-2" type="text" name="" id="" placeholder="h">
+                            <span>cm<sup>2</sup></span>
+                        </div>
+                      <div class="card-actions">
+                        <button class="btn btn-primary w-full">Calculate</button>
+                      </div>
+                    </div>
+                  </div>
+                <!-- card one -->
+                <div class="card bg-base-100 shadow-xl">
+                    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Triangle!</h2>
+                      <p>Area (A) =0.5XbXh</p>
+                        <div class="flex">
+                            <input class="w-2/4 border-2 border-gray-400 rounded-md mr-2 px-2" type="text" name="" id="" placeholder="b">
+                            <span>cm<sup>2</sup></span>
+                            <input class="w-2/4 border-2 border-gray-400 rounded-md mx-2 px-2" type="text" name="" id="" placeholder="h">
+                            <span>cm<sup>2</sup></span>
+                        </div>
+                      <div class="card-actions">
+                        <button class="btn btn-primary w-full">Calculate</button>
+                      </div>
+                    </div>
+                  </div>
+             
+            </div>
+            <div class="col-span-3 border-2 border-gray-400 m-8 p-8">
+                <h1 class="text-sm font-extrabold underline">Area:Calculation</h1>
+            </div>
+        </div>
+    </main>
+    <script src="java.js"></script>
 </body>
 </html>
